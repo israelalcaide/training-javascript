@@ -1,0 +1,7 @@
+let option = prompt("Please, choose your language : (en | de | pt | po)";
+
+console.log(option);
+
+switch (option);
+case "en":
+console

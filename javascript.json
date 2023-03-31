@@ -1,0 +1,104 @@
+"if - else if - else": {
+    "prefix": "ie",
+    "body": [
+      "if (${1:condition}) {",
+      "  console.log("${2:message}");",
+      "} else if (${3:condition}) {",
+      "  console.log("${4:message}");",
+      "} else {",
+      "  console.log("${5:message}");",
+      "}"
+    ],
+    "description": "if - else if - else"
+  }
+{
+  "console.log with quotes": {
+    "prefix": "lg",
+    "body": ["console.log('${1:message}');"],
+    "description": "console.log with quotes"
+  },
+  "prompt message": {
+    "prefix": "pr",
+    "body": ["prompt('${1:message}');"],
+    "description": "prompt message"
+  },
+  "if - else if - else": {
+    "prefix": "ie",
+    "body": [
+      "if (${1:condition}) {",
+      "  console.log(\"${2:message}\");",
+      "} else if (${3:condition}) {",
+      "  console.log(\"${4:message}\");",
+      "} else {",
+      "  console.log(\"${5:message}\");",
+      "}"
+    ],
+    "description": "if - else if - else"
+  }
+}
+{
+  "console.log with quotes": {
+    "prefix": "lg",
+    "body": ["console.log('${1:message}');"],
+    "description": "console.log with quotes"
+  },
+  "prompt message": {
+    "prefix": "pr",
+    "body": ["prompt('${1:message}');"],
+    "description": "prompt message"
+  },
+  "if - else if - else": {
+    "prefix": "ie",
+    "body": [
+      "if (${1:condition}) {",
+      "  console.log(\"${2:message}\");",
+      "} else if (${3:condition}) {",
+      "  console.log(\"${4:message}\");",
+      "} else {",
+      "  console.log(\"${5:message}\");",
+      "}"
+    ],
+    "description": "if - else if - else"
+  },
+  "improved switch": {
+    "prefix": "sw",
+    "body": [
+      "switch (${1:key}) {",
+      "    case value:",
+      "        console.log(\"${2:message}\");",
+      "        break;",
+      "    case \"value\":",
+      "        console.log(\"${3:message}\");",
+      "        break;",
+      "",
+      "    default:",
+      "        console.log(\"${4:message}\");",
+      "        break;",
+      "}"
+    ],
+    "description": "improved switch"
+  }
+},
+"Random number between max and min": {
+    "prefix": "rn",
+    "body": [
+      "let max = ${1:num1};",
+      "let min = ${2:num2};",
+      "let random = Math.floor(Math.random() * (max - min + 1) ) + min;",
+      "console.log(random)"
+    ],
+    "description": "Random number between max and min"
+  }
+
+  {
+    "console.log with quotes": {
+      "prefix": "lg",
+      "body": ["console.log('${1:message}');"],
+      "description": "console.log with quotes"
+    },
+    "prompt message": {
+      "prefix": "pr",
+      "body": ["prompt('${1:message}');"],
+      "description": "prompt message"
+    }
+  }
